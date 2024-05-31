@@ -17,4 +17,3 @@ Regression modelling is a vast statistical field comprising various approaches t
 This repository contains the materials corresponding to the above talk. These contents are briefly explained as follows:
 
 - A **Quarto presentation** with the slides to be presented in `.qmd` and `HTML` formats.
-- A **Jupyter notebook** for easy access within this repo.
