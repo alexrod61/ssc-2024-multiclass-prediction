@@ -1,0 +1,143 @@
+---
+title: "Multiclass Prediction and Inference"
+subtitle: "A Practical Approach"
+author: G. Alexi Rodríguez-Arelis
+institute: "Department of Statistics"
+format: 
+  revealjs:
+    logo: img/ubc-logo-2018-fullsig.png
+    css: styles.css
+    slide-number: true
+    slide-level: 4
+    date: 2024-06-05
+    transition: none
+include-in-header:
+  text: |
+    <style>
+    #title-slide > .title {
+      color: darkblue;
+    }
+    </style>
+---
+
+# <span style="color: darkblue;">Agenda</span>
+
+1. The Master of Data Science
+2. Regression Challenges
+3. Three Pillars in Regression Teaching
+4. Data Science Workflow
+5. The Regression Mind Map
+6. Multiclass Showcase
+7. Future Work
+
+## <span style="color: darkblue;">1. The Master of Data Science</span>
+
+![](img/UBC-MDS-logo.png){.absolute top=50 right=-60 height="170"}
+
+:::: incremental
+- 10-month accelerated professional program
+- 24 one-credit courses distributed across six blocks
+- A subset of these courses falls on the statistical side:
+::::
+
+. . .
+
+<center>
+::: {style="font-size: 75%;"}
+  1. **DSCI 551:** Descriptive Statistics and Probability for Data Science
+  2. **DSCI 552:** Statistical Inference and Computation I (frequentist)
+  3. **DSCI 553:** Statistical Inference and Computation II (Bayesian)
+  4. **DSCI 554:** Experimentation and Causal Inference
+  5. **DSCI 561:** Regression I (ordinary least-squares, OLS)
+  6. **DSCI 562:** Regression II (**beyond OLS**)
+:::
+
+## <span style="color: darkblue;">2. Regression Challenges</span>
+
+::: incremental
+- Let's focus on **DSCI 562**
+- There are **eight** lectures, **four** labs, and **two** quizzes
+- How can we cover <span style="color: purple;">generalized linear models (GLMs)</span>, <span style="color: purple;">mixed-effects</span>, <span style="color: purple;">local</span>, <span style="color: purple;">survival</span>, and <span style="color: purple;">quantile regression</span>, and <span style="color: purple;">techniques for dealing with missing data</span> **across eight lectures in four weeks**?
+:::
+
+![](img/panda.png){fig-align="center" width=50%}
+
+## <span style="color: darkblue;">3. Three Pillars in Regression Teaching</span>
+
+::: incremental
+- **DSCI 562** targets Regression Analysis for **complex data** (which can't and shouldn't be modelled via OLS)
+- Given the amount of material to cover, <span style="color: purple;">lectures are usually quite dense</span>
+- Therefore, it's imperative to have an <span style="color: purple;">efficient and homogeneous teaching approach</span> that relies on <span style="color: purple;">three pillars</span>
+:::
+
+![](img/crab.png){fig-align="center" width=70%}
+
+### <span style="color: darkblue;">The pillars</span>
+
+1. The use of a <span style="color: purple;">Data Science workflow</span>
+2. Choosing a <span style="color: purple;">proper workflow flavour</span> according to either an <span style="color: purple;">inferential</span> or <span style="color: purple;">predictive</span> paradigm
+3. The correct use of an appropriate regression model based on the response of interest (<span style="color: purple;">when to use what as a mind map</span>)
+
+![](img/software.png){fig-align="center" width=70%}
+
+
+## <span style="color: darkblue;">4. Data Science Workflow</span>
+
+![](img/data-science-workflow-1.png){fig-align="center" width=5%}
+
+### <span style="color: darkblue;">Hold on! There's more</span>
+
+![](img/data-science-workflow-2.png){fig-align="center" width=5%}
+
+## <span style="color: darkblue;">5. The Regression Mind Map</span>
+
+- During `lecture1`, we start out this <span style="color: purple;">regression mind map</span> with OLS
+
+. . .
+
+![](img/reg-mindmap-1.png){fig-align="center" width=20%}
+
+### <span style="color: darkblue;">Now, with the first GLMs...</span>
+
+![](img/reg-mindmap-2.png){fig-align="center" width=20%}
+
+### <span style="color: darkblue;">How about Multinomial Logistic regression?</span>
+
+![](img/reg-mindmap-3.png){fig-align="center" width=20%}
+
+### <span style="color: darkblue;">Moving on to Ordinal Logistic regression</span>
+
+![](img/reg-mindmap-4.png){fig-align="center" width=20%}
+
+### <span style="color: darkblue;">Here comes Survival Analysis!</span>
+
+![](img/reg-mindmap-5.png){fig-align="center" width=20%}
+
+### <span style="color: darkblue;">A digression on local regression</span>
+
+![](img/reg-mindmap-6.png){fig-align="center" width=20%}
+
+### <span style="color: darkblue;">Finalizing with Quantile regression</span>
+
+![](img/reg-mindmap-7.png){fig-align="center" width=20%}
+
+## <span style="color: darkblue;">6. Multiclass Showcase</span>
+
+- Let's check the <span style="color: purple;">Jupyter book</span> notes on <span style="color: purple;">Multinomial Logistic regression</span>
+- We use a Spotify-related dataset
+
+<img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" width="300" height="90"/>
+
+::: {style="font-size: 75%;"}
+> *Copyright © 2024 Spotify AB. Spotify is a registered trademark of the Spotify Group.*
+:::
+
+![](img/multinomial-qr-code.png){.absolute top=170 right=30 width=15%}
+
+## <span style="color: darkblue;">7. Future Work</span>
+
+- A whole <span style="color: purple;">frequentist</span> textbook on <span style="color: purple;">maximum likelihood-based approaches</span>, and open to collaborations!
+
+![](img/proposed-mindmap.png){fig-align="center" width=25%}
+
+## <span style="color: darkblue;">Questions?</span>
