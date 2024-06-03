@@ -1,8 +1,8 @@
 # Multiclass Prediction and Inference: A Practical Approach
 
-## 2024 SSC Annual Meeting in St. John's
+## Approaches To Teaching The Analysis Of Large-Scale And Complex Data
 
-### Approaches To Teaching The Analysis Of Large-Scale And Complex Data
+**2024 SSC Annual Meeting in St. John's"**
 
 **Sponsor:** Statistical Education Section
 

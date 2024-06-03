@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "2024 SSC Annual Meeting in St. John's"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Slides"
+        contents:
+          - slides/ssc-2024-multiclasss.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

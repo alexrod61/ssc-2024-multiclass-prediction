@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Multiclass Prediction and Inference: A Practical Approach",
+    "section": "",
+    "text": "2024 SSC Annual Meeting in St. John’s”\nSponsor: Statistical Education Section\nDate: Wednesday, June 5, 2024.\nSpeaker: G. Alexi Rodríguez-Arelis, PhD\nAffiliation: Assistant Professor of Teaching, UBC\nRegression modelling is a vast statistical field comprising various approaches that might suit different inferential and predictive practical cases. In this context, when teaching data analysis in an accelerated data science graduate program, it is crucial to establish an efficient and homogeneous workflow that can cater to a wide range of regression approaches using data science-based reproducible tools (such as Jupyter notebooks) along with engaging datasets. This talk will explain this analysis workflow while providing crucial insights on its application in a regression graduate course beyond ordinary least squares. Finally, under an inferential and predictive scenario, this teaching approach will be exemplified via a specific model targeted to multiclass nominal responses: multinomial regression.\nThis website contains a Quarto presentation."
+  },
+  {
+    "objectID": "index.html#ssc-annual-meeting-in-st.-johns",
+    "href": "index.html#ssc-annual-meeting-in-st.-johns",
+    "title": "Multiclass Prediction and Inference: A Practical Approach",
+    "section": "",
+    "text": "Sponsor: Statistical Education Section\nDate: Wednesday, June 5, 2024.\nSpeaker: G. Alexi Rodríguez-Arelis, PhD\nAffiliation: Assistant Professor of Teaching, UBC\nRegression modelling is a vast statistical field comprising various approaches that might suit different inferential and predictive practical cases. In this context, when teaching data analysis in an accelerated data science graduate program, it is crucial to establish an efficient and homogeneous workflow that can cater to a wide range of regression approaches using data science-based reproducible tools (such as Jupyter notebooks) along with engaging datasets. This talk will explain this analysis workflow while providing crucial insights on its application in a regression graduate course beyond ordinary least squares. Finally, under an inferential and predictive scenario, this teaching approach will be exemplified via a specific model targeted to multiclass nominal responses: multinomial regression.\nThis website contains a Quarto presentation."
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#the-master-of-data-science",
+    "href": "slides/ssc-2024-multiclasss.html#the-master-of-data-science",
+    "title": "Multiclass Prediction and Inference",
+    "section": "1. The Master of Data Science",
+    "text": "1. The Master of Data Science\n\n\n\n10-month accelerated professional program\n24 one-credit courses distributed across six blocks\nA subset of these courses falls on the statistical side:\n\n\n\n\n\n\nDSCI 551: Descriptive Statistics and Probability for Data Science\nDSCI 552: Statistical Inference and Computation I (frequentist)\nDSCI 553: Statistical Inference and Computation II (Bayesian)\nDSCI 554: Experimentation and Causal Inference\nDSCI 561: Regression I (ordinary least-squares, OLS)\nDSCI 562: Regression II (beyond OLS)"
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#regression-challenges",
+    "href": "slides/ssc-2024-multiclasss.html#regression-challenges",
+    "title": "Multiclass Prediction and Inference",
+    "section": "2. Regression Challenges",
+    "text": "2. Regression Challenges\n\n\nLet’s focus on DSCI 562\nThere are eight lectures, four labs, and two quizzes\nHow can we cover generalized linear models (GLMs), mixed-effects, local, survival, and quantile regression, and techniques for dealing with missing data across eight lectures in four weeks?"
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#three-pillars-in-regression-teaching",
+    "href": "slides/ssc-2024-multiclasss.html#three-pillars-in-regression-teaching",
+    "title": "Multiclass Prediction and Inference",
+    "section": "3. Three Pillars in Regression Teaching",
+    "text": "3. Three Pillars in Regression Teaching\n\n\nDSCI 562 targets Regression Analysis for complex data (which can’t and shouldn’t be modelled via OLS)\nGiven the amount of material to cover, lectures are usually quite dense\nTherefore, it’s imperative to have an efficient and homogeneous teaching approach that relies on three pillars"
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#data-science-workflow",
+    "href": "slides/ssc-2024-multiclasss.html#data-science-workflow",
+    "title": "Multiclass Prediction and Inference",
+    "section": "4. Data Science Workflow",
+    "text": "4. Data Science Workflow"
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#the-regression-mind-map",
+    "href": "slides/ssc-2024-multiclasss.html#the-regression-mind-map",
+    "title": "Multiclass Prediction and Inference",
+    "section": "5. The Regression Mind Map",
+    "text": "5. The Regression Mind Map\n\nDuring lecture1, we start out this regression mind map with OLS"
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#multiclass-showcase",
+    "href": "slides/ssc-2024-multiclasss.html#multiclass-showcase",
+    "title": "Multiclass Prediction and Inference",
+    "section": "6. Multiclass Showcase",
+    "text": "6. Multiclass Showcase\n\nLet’s check the Jupyter book notes on Multinomial Logistic regression\nWe use a Spotify-related dataset\n\n\n\n\nCopyright © 2024 Spotify AB. Spotify is a registered trademark of the Spotify Group."
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#future-work",
+    "href": "slides/ssc-2024-multiclasss.html#future-work",
+    "title": "Multiclass Prediction and Inference",
+    "section": "7. Future Work",
+    "text": "7. Future Work\n\nA whole frequentist textbook on maximum likelihood-based approaches (both on Python and R), and open to collaborations!"
+  },
+  {
+    "objectID": "slides/ssc-2024-multiclasss.html#questions",
+    "href": "slides/ssc-2024-multiclasss.html#questions",
+    "title": "Multiclass Prediction and Inference",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "index.html#approaches-to-teaching-the-analysis-of-large-scale-and-complex-data",
+    "href": "index.html#approaches-to-teaching-the-analysis-of-large-scale-and-complex-data",
+    "title": "Multiclass Prediction and Inference: A Practical Approach",
+    "section": "",
+    "text": "2024 SSC Annual Meeting in St. John’s”\nSponsor: Statistical Education Section\nDate: Wednesday, June 5, 2024.\nSpeaker: G. Alexi Rodríguez-Arelis, PhD\nAffiliation: Assistant Professor of Teaching, UBC\nRegression modelling is a vast statistical field comprising various approaches that might suit different inferential and predictive practical cases. In this context, when teaching data analysis in an accelerated data science graduate program, it is crucial to establish an efficient and homogeneous workflow that can cater to a wide range of regression approaches using data science-based reproducible tools (such as Jupyter notebooks) along with engaging datasets. This talk will explain this analysis workflow while providing crucial insights on its application in a regression graduate course beyond ordinary least squares. Finally, under an inferential and predictive scenario, this teaching approach will be exemplified via a specific model targeted to multiclass nominal responses: multinomial regression.\nThis website contains a Quarto presentation."
+  }
+]

@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="ssc-2024-multiclasss_files/libs/clipboard/clipboard.min.js"></script>
-<script src="ssc-2024-multiclasss_files/libs/quarto-html/tabby.min.js"></script>
-<script src="ssc-2024-multiclasss_files/libs/quarto-html/popper.min.js"></script>
-<script src="ssc-2024-multiclasss_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="ssc-2024-multiclasss_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="ssc-2024-multiclasss_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="ssc-2024-multiclasss_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="ssc-2024-multiclasss_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.361">
 
   <meta name="author" content="G. Alexi Rodríguez-Arelis">
   <meta name="dcterms.date" content="2024-06-05">
-  <title>Multiclass Prediction and Inference</title>
+  <title>2024 SSC Annual Meeting in St.&nbsp;John’s - Multiclass Prediction and Inference</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="ssc-2024-multiclasss_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="ssc-2024-multiclasss_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -31,12 +31,12 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="ssc-2024-multiclasss_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="styles.css">
-  <link href="ssc-2024-multiclasss_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="ssc-2024-multiclasss_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="ssc-2024-multiclasss_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="ssc-2024-multiclasss_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -411,23 +411,37 @@ G. Alexi Rodríguez-Arelis
 <img data-src="img/crab.png" style="width:70.0%" class="r-stretch quarto-figure-center"></section>
 <section id="the-pillars" class="title-slide slide level3 center">
 <h3><span style="color: darkblue;">The pillars</span></h3>
+<div>
 <ol type="1">
-<li>The use of a <span style="color: purple;">Data Science workflow</span></li>
-<li>Choosing a <span style="color: purple;">proper workflow flavour</span> according to either an <span style="color: purple;">inferential</span> or <span style="color: purple;">predictive</span> paradigm</li>
-<li>The correct use of an appropriate regression model based on the response of interest (<span style="color: purple;">when to use what as a mind map</span>)</li>
+<li class="fragment">The use of a <span style="color: purple;">Data Science workflow</span></li>
+<li class="fragment">Choosing a <span style="color: purple;">proper workflow flavour</span> according to either an <span style="color: purple;">inferential</span> or <span style="color: purple;">predictive</span> paradigm</li>
+<li class="fragment">The correct use of an appropriate regression model based on the response of interest (<span style="color: purple;">when to use what as a mind map</span>)</li>
 </ol>
+</div>
 
 <img data-src="img/software.png" style="width:70.0%" class="r-stretch quarto-figure-center"></section>
 
 
 <section id="data-science-workflow" class="title-slide slide level2 center">
 <h2><span style="color: darkblue;">4. Data Science Workflow</span></h2>
-
-<img data-src="img/data-science-workflow-1.png" style="width:5.0%" class="r-stretch quarto-figure-center"></section>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/data-science-workflow-1.png" style="width:95.0%"></p>
+</figure>
+</div>
+</div>
+</section>
 <section id="hold-on-theres-more" class="title-slide slide level3 center">
 <h3><span style="color: darkblue;">Hold on! There’s more</span></h3>
-
-<img data-src="img/data-science-workflow-2.png" style="width:5.0%" class="r-stretch quarto-figure-center"></section>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/data-science-workflow-2.png" style="width:95.0%"></p>
+</figure>
+</div>
+</div>
+</section>
 
 
 <section id="the-regression-mind-map" class="title-slide slide level2 center">
@@ -477,7 +491,7 @@ G. Alexi Rodríguez-Arelis
 <section id="multiclass-showcase" class="title-slide slide level2 center">
 <h2><span style="color: darkblue;">6. Multiclass Showcase</span></h2>
 <ul>
-<li>Let’s check the <span style="color: purple;">Jupyter book</span> notes on <span style="color: purple;">Multinomial Logistic regression</span></li>
+<li>Let’s check the <a href="https://ubc-mds.github.io/DSCI_562_regr-2/notes/lecture2_glm_model_selection_multinomial.html#multinomial-logistic-regression">Jupyter book</a> notes on <span style="color: purple;">Multinomial Logistic regression</span></li>
 <li>We use a Spotify-related dataset</li>
 </ul>
 <p><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" width="300" height="90"></p>
@@ -492,13 +506,14 @@ G. Alexi Rodríguez-Arelis
 <section id="future-work" class="title-slide slide level2 center">
 <h2><span style="color: darkblue;">7. Future Work</span></h2>
 <ul>
-<li>A whole <span style="color: purple;">frequentist</span> textbook on <span style="color: purple;">maximum likelihood-based approaches</span>, and open to collaborations!</li>
+<li>A whole <span style="color: purple;">frequentist</span> textbook on <span style="color: purple;">maximum likelihood-based approaches</span> (both on <code>Python</code> and <code>R</code>), and open to collaborations!</li>
 </ul>
 
 <img data-src="img/proposed-mindmap.png" style="width:25.0%" class="r-stretch quarto-figure-center"></section>
 
 <section id="questions" class="title-slide slide level2 center">
 <h2><span style="color: darkblue;">Questions?</span></h2>
+
 
 <img src="img/ubc-logo-2018-fullsig.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
@@ -509,19 +524,19 @@ G. Alexi Rodríguez-Arelis
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="ssc-2024-multiclasss_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

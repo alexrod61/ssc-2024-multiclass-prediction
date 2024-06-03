@@ -74,20 +74,26 @@ include-in-header:
 
 ### <span style="color: darkblue;">The pillars</span>
 
+::: incremental
 1. The use of a <span style="color: purple;">Data Science workflow</span>
 2. Choosing a <span style="color: purple;">proper workflow flavour</span> according to either an <span style="color: purple;">inferential</span> or <span style="color: purple;">predictive</span> paradigm
 3. The correct use of an appropriate regression model based on the response of interest (<span style="color: purple;">when to use what as a mind map</span>)
+:::
 
 ![](img/software.png){fig-align="center" width=70%}
 
 
 ## <span style="color: darkblue;">4. Data Science Workflow</span>
 
-![](img/data-science-workflow-1.png){fig-align="center" width=5%}
+. . .
+
+![](img/data-science-workflow-1.png){fig-align="center" width=95%}
 
 ### <span style="color: darkblue;">Hold on! There's more</span>
 
-![](img/data-science-workflow-2.png){fig-align="center" width=5%}
+. . .
+
+![](img/data-science-workflow-2.png){fig-align="center" width=95%}
 
 ## <span style="color: darkblue;">5. The Regression Mind Map</span>
 
@@ -123,7 +129,7 @@ include-in-header:
 
 ## <span style="color: darkblue;">6. Multiclass Showcase</span>
 
-- Let's check the <span style="color: purple;">Jupyter book</span> notes on <span style="color: purple;">Multinomial Logistic regression</span>
+- Let's check the [Jupyter book](https://ubc-mds.github.io/DSCI_562_regr-2/notes/lecture2_glm_model_selection_multinomial.html#multinomial-logistic-regression) notes on <span style="color: purple;">Multinomial Logistic regression</span>
 - We use a Spotify-related dataset
 
 <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" width="300" height="90"/>
@@ -136,7 +142,7 @@ include-in-header:
 
 ## <span style="color: darkblue;">7. Future Work</span>
 
-- A whole <span style="color: purple;">frequentist</span> textbook on <span style="color: purple;">maximum likelihood-based approaches</span>, and open to collaborations!
+- A whole <span style="color: purple;">frequentist</span> textbook on <span style="color: purple;">maximum likelihood-based approaches</span> (both on `Python` and `R`), and open to collaborations!
 
 ![](img/proposed-mindmap.png){fig-align="center" width=25%}
 
