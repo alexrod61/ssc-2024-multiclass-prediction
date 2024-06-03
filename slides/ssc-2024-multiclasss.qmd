@@ -30,8 +30,8 @@ include-in-header:
 6. Multiclass Showcase
 7. Future Work
 
-::: {style="font-size: 60%;"}
-> **QR code takes you to the presentation's website**
+::: {style="font-size: 50%;"}
+> **QR code takes you to the presentation's website: [https://alexrod61.github.io/ssc-2024-multiclass-prediction/](https://alexrod61.github.io/ssc-2024-multiclass-prediction/)**
 :::
 
 ![](img/website-qr-code.png){.absolute top=210 right=10 width=20%}
