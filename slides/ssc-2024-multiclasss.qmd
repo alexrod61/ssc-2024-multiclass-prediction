@@ -30,6 +30,12 @@ include-in-header:
 6. Multiclass Showcase
 7. Future Work
 
+::: {style="font-size: 60%;"}
+> **QR code takes you to the presentation's website**
+:::
+
+![](img/website-qr-code.png){.absolute top=210 right=10 width=20%}
+
 ## <span style="color: darkblue;">1. The Master of Data Science</span>
 
 ![](img/UBC-MDS-logo.png){.absolute top=50 right=-60 height="170"}
@@ -49,7 +55,7 @@ include-in-header:
   3. **DSCI 553:** Statistical Inference and Computation II (Bayesian)
   4. **DSCI 554:** Experimentation and Causal Inference
   5. **DSCI 561:** Regression I (ordinary least-squares, OLS)
-  6. **DSCI 562:** Regression II (**beyond OLS**)
+  6. <span style="color: purple;">**DSCI 562:** Regression II (**beyond OLS**)</span>
 :::
 
 ## <span style="color: darkblue;">2. Regression Challenges</span>
@@ -87,13 +93,13 @@ include-in-header:
 
 . . .
 
-![](img/data-science-workflow-1.png){fig-align="center" width=95%}
+![](img/data-science-workflow-1.png){fig-align="center" width=82%}
 
 ### <span style="color: darkblue;">Hold on! There's more</span>
 
 . . .
 
-![](img/data-science-workflow-2.png){fig-align="center" width=95%}
+![](img/data-science-workflow-2.png){fig-align="center" width=100%}
 
 ## <span style="color: darkblue;">5. The Regression Mind Map</span>
 
@@ -129,7 +135,7 @@ include-in-header:
 
 ## <span style="color: darkblue;">6. Multiclass Showcase</span>
 
-- Let's check the [Jupyter book](https://ubc-mds.github.io/DSCI_562_regr-2/notes/lecture2_glm_model_selection_multinomial.html#multinomial-logistic-regression) notes on <span style="color: purple;">Multinomial Logistic regression</span>
+- Let's check the [Jupyter book](https://ubc-mds.github.io/DSCI_562_regr-2/notes/lecture2_glm_model_selection_multinomial.html#multinomial-logistic-regression) notes on <span style="color: purple;">Multinomial Logistic regression</span> (**QR code takes you to DSCI 562 public materials**)
 - We use a Spotify-related dataset
 
 <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" width="300" height="90"/>
@@ -138,7 +144,7 @@ include-in-header:
 > *Copyright © 2024 Spotify AB. Spotify is a registered trademark of the Spotify Group.*
 :::
 
-![](img/multinomial-qr-code.png){.absolute top=170 right=30 width=15%}
+![](img/multinomial-qr-code.png){.absolute top=210 right=10 width=20%}
 
 ## <span style="color: darkblue;">7. Future Work</span>
 

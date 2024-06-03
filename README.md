@@ -2,7 +2,7 @@
 
 ## Approaches To Teaching The Analysis Of Large-Scale And Complex Data
 
-**2024 SSC Annual Meeting in St. John's"**
+**2024 SSC Annual Meeting in St. John's**
 
 **Sponsor:** Statistical Education Section
 

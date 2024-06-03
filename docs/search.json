@@ -53,7 +53,7 @@
     "href": "slides/ssc-2024-multiclasss.html#multiclass-showcase",
     "title": "Multiclass Prediction and Inference",
     "section": "6. Multiclass Showcase",
-    "text": "6. Multiclass Showcase\n\nLet’s check the Jupyter book notes on Multinomial Logistic regression\nWe use a Spotify-related dataset\n\n\n\n\nCopyright © 2024 Spotify AB. Spotify is a registered trademark of the Spotify Group."
+    "text": "6. Multiclass Showcase\n\nLet’s check the Jupyter book notes on Multinomial Logistic regression (QR code takes you to DSCI 562 public materials)\nWe use a Spotify-related dataset\n\n\n\n\nCopyright © 2024 Spotify AB. Spotify is a registered trademark of the Spotify Group."
   },
   {
     "objectID": "slides/ssc-2024-multiclasss.html#future-work",
