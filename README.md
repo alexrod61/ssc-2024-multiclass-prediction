@@ -8,7 +8,7 @@
 
 **Date:** Wednesday, June 5, 2024.
 
-**Speaker:** G. Alexi Rodríguez-Arelis, PhD
+**Speaker:** [G. Alexi Rodríguez-Arelis](https://alexrod.netlify.app), PhD
 
 alexrod@stat.ubc.ca
 
