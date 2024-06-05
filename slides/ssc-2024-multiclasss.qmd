@@ -153,3 +153,9 @@ include-in-header:
 ![](img/proposed-mindmap.png){fig-align="center" width=25%}
 
 ## <span style="color: darkblue;">Questions?</span>
+
+![](img/website-qr-code.png){fig-align="center" width=30%}
+
+::: {style="font-size: 50%;"}
+> **QR code takes you to the presentation's website: [https://alexrod61.github.io/ssc-2024-multiclass-prediction/](https://alexrod61.github.io/ssc-2024-multiclass-prediction/)**
+:::
